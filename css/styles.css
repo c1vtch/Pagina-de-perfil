@@ -19,11 +19,11 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
-    padding: 10px 20px;
+    flex-wrap: wrap;
+    padding: 20px;
     position: sticky;
     top: 0;
-    z-index: 1000; /* para que la barra siempre este frente a los otros elementos */
+    z-index: 1000; 
 
     .nav-links{
         display: flex;
@@ -60,6 +60,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 30px;
+    flex-wrap: wrap;
     .card{
         margin-top: 20px;
         background-color: #f6f8fa;
@@ -134,7 +135,6 @@ body{
 /* Barra a la derecha */
 .connection-request{
     text-align: center;
-    min-width: 300px;
     height: fit-content;
     h2{
         
