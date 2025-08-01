@@ -86,7 +86,7 @@ body{
         width: 130px;
         height: 130px;
         border-radius: 50%;
-        background-image: url("/img/remy_loz-hgBSriclILc-unsplash.jpg");
+        background-image: url("./../img/remy_loz-hgBSriclILc-unsplash.jpg");
         background-size: cover;
         background-position: center;
         
@@ -184,20 +184,20 @@ body{
 
 /* Se que esto no es lo mejor pero con <img> se veia la imagen estirada y fea pero como el desafio no pide JS lo hice a mano */
 .user1{
-    background-image: url("/img/user-connection-img/pexels-prolificpeople-30004312.jpg");
+    background-image: url("./../img/user-connection-img/pexels-prolificpeople-30004312.jpg");
 }
 .user2{
-    background-image: url("/img/user-connection-img/pexels-nakulchandra-30026793.jpg");   
+    background-image: url("./../img/user-connection-img/pexels-nakulchandra-30026793.jpg");   
 }
 .user3{
-    background-image: url("/img/user-connection-img/pexels-uiliamnornberg-30712844.jpg");
+    background-image: url("./../img/user-connection-img/pexels-uiliamnornberg-30712844.jpg");
 }
 .user4{
-    background-image: url("/img/user-connection-img/pexels-bymuratisikofficial-16673310.jpg");
+    background-image: url("./../img/user-connection-img/pexels-bymuratisikofficial-16673310.jpg");
 }
 .user5{
-    background-image: url("/img/user-connection-img/pexels-rizkysabriansyah-12809815.jpg");
+    background-image: url("./../img/user-connection-img/pexels-rizkysabriansyah-12809815.jpg");
 }
 .user6{
-    background-image: url("/img/user-connection-img/pexels-dave-tombi-48516388-14983798.jpg");
+    background-image: url("./../img/user-connection-img/pexels-dave-tombi-48516388-14983798.jpg");
 }
