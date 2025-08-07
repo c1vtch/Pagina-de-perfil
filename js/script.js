@@ -23,8 +23,8 @@ editBtn.addEventListener("click", () => {
 
 
 confirmBtn.forEach((btn) => {
+    let userDiv = btn.closest(".user")
     btn.addEventListener("click", () => {
-        console.log("clicked")
-       
+        userDiv.remove()
     })
 })
