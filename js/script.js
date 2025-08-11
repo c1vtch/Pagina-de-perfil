@@ -2,7 +2,7 @@ let userName = document.querySelector(".user-name")
 const editBtn = document.querySelector(".edit-btn")
 
 
-
+let requestsTitle = document.querySelector(".requests-num")
 let numOfConnections = document.querySelector(".num-of-connections")
 let confirmBtn = document.querySelectorAll(".confirm")
 let rejectBtn = document.querySelectorAll(".reject")
@@ -26,13 +26,11 @@ const removeDiv = () =>{
 }
 
 // Remueve el div de la solicitud
+// podria hacer estos bloques en una funcion pero por ahora funciona
 let currentRequests = 2;
 let addedConnections = 0;
 confirmBtn.forEach((btn) => {
     let userDiv = btn.closest(".user")
-    let userRequestDiv = userDiv.closest(".connection-request")
-    let requestsTitle = userRequestDiv.querySelector("h2")
-
     btn.addEventListener("click", () =>{
         userDiv.remove()
         currentRequests -= 1
