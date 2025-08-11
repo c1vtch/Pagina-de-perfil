@@ -40,11 +40,12 @@ confirmBtn.forEach((btn) => {
     })
 })
 
-
 // Remueve el div si se rechaza
 rejectBtn.forEach((btn) => {
     let userDiv = btn.closest(".user")
     btn.addEventListener("click", () =>{
         userDiv.remove()
+        currentRequests -= 1
+        requestsTitle.innerText = `Solicitudes de Conexion(${currentRequests})`
     })
 })
